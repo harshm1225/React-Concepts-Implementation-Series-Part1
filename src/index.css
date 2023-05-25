@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #131518;
+  display: inline-block;
+}
+.container {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  /* height: 412px; */
+  height: fit-content;
+  max-width: 412px;
+  position: absolute;
+
+  /* vertical centering */
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  /* horizontal centering */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+}
+.card-wrapper {
+  margin: 2em;
+}
+.star-icon-cont {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #262e38;
+}
+h1 {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.9375em;
+}
+p {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5em;
+  color: #969fad;
+}
+.button-container {
+  display: flex;
+  height: 51px;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.button-container button {
+  min-width: 51px;
+  flex-shrink: 1;
+  background: #262e38;
+  color: #7c8798;
+  border: 0;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.button-container button:hover {
+  background-color: #fc7614;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-container button:focus {
+  background: #7c8798;
+  color: #fff;
+}
+.submit-btn-container {
+  height: 45px;
+  width: full;
+}
+.submit-btn {
+  width: 100%;
+  height: 45px;
+  background: #fc7614;
+  border-radius: 22.5px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 0.938rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: 0;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: #ffffff;
+  color: #fc7614;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+.rating-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 214px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 22.5px;
+  color: #fc7614;
+  background: #262e38;
+  margin-bottom: 2em;
+}
+.thankyou-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 145px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 0.9375em;
+}
+.appreciate-text {
+  text-align: center;
+  color: #969fad;
+}
+.hidden {
+  display: none;
+}
+@media (max-width: 418px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
