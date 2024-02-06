@@ -1,5 +1,5 @@
 # Use official Node.js 14 image as base
-FROM node:14
+FROM node:latest
 
 # Set working directory within the container
 WORKDIR /usr/share/app
